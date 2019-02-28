@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport" />
+
+<link rel="stylesheet" type="text/css" href="css/3rd.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="2018中合银，后海CBD全新起航">
+<meta property="og:description" content="工程金融专家和领导者">
+<meta property="og:image" content="http://test.szqzsd.com/lbh5/image/84.jpg">
+<meta property="og:url" content="http://test.szqzsd.com/lbh5/index.html">
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+				
+
+<script src="js/base.js"></script>
+<script src="js/index.js"></script>
+<script>
+	$(document).ready(function(){
+		
+		getShareInfo();
+		function getShareInfo(){
+			var url = window.location.href;
+			$.post("http://wx.csc-ad.cn/tools/WxJsSdk.php",{"url":url},function(data){
+				wx.config({
+					debug: false,
+					appId:data.appId,
+					timestamp:data.timestamp,
+					nonceStr:data.nonceStr,
+					signature:data.signature,
+					jsApiList: ["onMenuShareAppMessage", "onMenuShareTimeline"] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+				});
+			},"json");
+			
+			
+		}
+
+
+		wx.config({
+			debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+			appId: 'wx8f17451c010557e1', // 必填，公众号的唯一标识
+			timestamp: Date.parse(new Date()), // 必填，生成签名的时间戳
+			nonceStr: "pXL4pJSLO6olAQDj", // 必填，生成签名的随机串
+			signature: "6f4a890c619285309e3b856f9bcbeed131612420",// 必填，签名，见附录1
+			jsApiList: ["onMenuShareAppMessage", "onMenuShareTimeline"] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+		});
+		wx.ready(function () {
+		
+			wx.onMenuShareAppMessage({
+				title: "2018中合银，后海CBD全新起航",
+				desc: '工程金融专家和领导者',
+				//link: window.location.href,
+				imgUrl: "http://test.szqzsd.com/lbh5/image/84.jpg",
+				success:function(){
+					
+				}
+			});
+			wx.onMenuShareTimeline({
+				title: "2018中合银，后海CBD全新起航",
+				link: window.location.href,
+				imgUrl: "http://test.szqzsd.com/lbh5/image/84.jpg"
+			});
+		});
+		
+
+	})
+</script>
+<style>
+	html,body{
+		height:100%;
+		overflow:hidden;
+		background:#000;
+	}
+	.swiper-container {
+		width: 100%;
+		height: 100%;
+		color:#fff;
+	}
+</style>
+
+<title>2018中合银，后海CBD全新起航</title>
+</head>
+
+<body>
+	<style>
+		.share_div{width:0px;height:0px;overflow:hidden;}
+    </style>
+	<div class="share_div"><img src="image/84.jpg"  /></div>
+    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<div class="bg" style="background-image:url(image/01.jpg)"></div>
+                
+                <div class="img z1 align_center" style="top:10%;left:0;width:100%;">
+                    <p class="mb10 a-time05" data-ani="fadeIn"><img src="image/02.png" alt="" width="133"></p>
+                    <p class="a-time05 ani-delay05" data-ani="fadeIn"><img src="image/03.png" alt="" width="229.5"></p>
+                </div>
+                
+                <div class="absolute animate" id="js-wrap-first" style="left:0;bottom:0;width:100%;">
+                    <div class="cell cell-first align_center f0">
+                        <p class="img1 absolute a-time05 ani-delay05" data-ani-ani="showInBottom">
+                            <img src="image/07.png" alt="" height="35">
+                        </p>
+                        
+                        <img src="image/05.png" alt="" height="270" class="a-time05" data-ani-ani="showInRight">
+                        
+                        <p class="img2 absolute a-time05 ani-delay1 " data-ani-ani="showInBottom">
+                            <img src="image/06.png" alt=""  height="35">
+                        </p>
+                        
+                    </div>
+                    <div class="cell cell-first align_center f0">
+                        <p class="img1 absolute a-time05 ani-delay05" data-ani-ani="showInBottom" style="width:30%">
+                            <img src="image/08.png" alt="" height="35">
+                        </p>
+                        
+                        <img src="image/09.png" alt="" height="270" class="a-time05" data-ani-ani="showInLeft">
+                        
+                        <p class="img2 absolute a-time05 ani-delay1" data-ani-ani="showInBottom" style="width:30%">
+                            <img src="image/10.png" alt=""  height="35">
+                        </p>
+                        
+                    </div>
+                    <div class="cell cell-first align_center f0">
+                        <p class="img1 absolute a-time05 ani-delay05" data-ani-ani="showInBottom">
+                            <img src="image/11.png" alt="" height="35">
+                        </p>
+                        
+                        <img src="image/12.png" alt="" height="270" class="a-time05" data-ani-ani="showInRight">
+                        
+                        <p class="img2 absolute a-time05 ani-delay1" data-ani-ani="showInBottom">
+                            <img src="image/13.png" alt=""  height="35">
+                        </p>
+                        
+                    </div>
+                </div>
+                
+                <div class="img z1 align_center f0" style="bottom:0;left:0;width:100%;">
+                    <img class="block a-time05 ani-delay1" id="js-firstbtm" data-ani="fadeIn" src="image/04.png" alt="" width="100%">
+                </div>
+                
+            </div>
+            <div class="swiper-slide">
+            	<div class="bg" style="background-image:url(image/02.jpg)"></div>
+                
+                <img src="image/14.png" width="180" alt="" class="absolute z1 a-time9 a-yj zhuanquan"  style="right:-60px;top:-60px;">
+                
+                <img src="image/16.png" alt="" width="100%" class="cell2-img z1 a-time05" data-ani="showInLeft">
+                <img src="image/15.png" alt="" width="100%" class="cell2-img z2 a-time05 ani-delay05" data-ani="showInRight">
+                <img src="image/17.png" alt="" width="100%" class="cell2-img z2 a-time05 ani-delay1 " data-ani="showInLeft">
+                
+                <p class="align_center z3 absolute" style="top:50%;width:100%;margin-top:-25px;">
+                	<img src="image/18.png" alt="" height="55" class="a-time05 ani-delay15 " data-ani="zoomIn">
+                </p>
+                
+                <div class="f0 absolute" style="left:10%;top:10%;">
+                	<p class="mb10">
+                    	<img src="image/19.png" alt="" width="70" class="a-time05 ani-delay2" data-ani="showInBottom">
+                    </p>
+                    <p>
+                    	<img src="image/20.png" alt="" width="260" class="a-time05 ani-delay25" data-ani="showInBottom">
+                    </p>
+                </div>
+                
+            </div>
+            <div class="swiper-slide">
+            	<div class="bg" style="background-image:url(image/03.jpg)"></div>
+                
+                
+                <div class="absolute f0 align_center z1 " style="top:-90px;left:0;width:100%;">
+	                <img src="image/14.png" width="180" alt="" class="a-time9  a-yj zhuanquan" >
+                </div>
+                
+                <div class="absolute f0" style="bottom:5%;left:0;width:100%;">
+	                <img src="image/21.png" width="100%" alt="" class="relative z1 a-time1 " data-ani="zoomIn">
+                    
+                    <img src="image/22.png" alt="" style="left:7%;top: 22%;" width="79" class="absolute z3 a-time09 ani-delay1" data-ani="showInTop">
+                    <img src="image/23.png" alt="" style="left:2%;top:41%;" width="77" class="absolute z3 a-time09 ani-delay2" data-ani="showInTop">
+                    <img src="image/24.png" alt="" style="right:5%;top:31%;" width="68" class="absolute z3 a-time09 ani-delay3" data-ani="showInTop">
+                    <img src="image/25.png" alt="" style="right:14%;top:45%;" width="95.5" class="absolute z3 a-time09 ani-delay4" data-ani="showInTop">
+                    <p style="right: 0%;top: 27%;" class="absolute z2 a-time09 ani-delay4" data-ani="fadeIn">
+                    	<img src="image/85.png" alt="" style="" width="200" class="a-time3 zhuanquan a-yj">
+                    </p>
+                    
+                </div>
+                
+                <div class="f0 absolute align_center" style="left:10%;top:18%; right:10%;">
+                	<p class="mb10">
+                    	<img src="image/26.png" alt="" width="100%" class="a-time09 ani-delay5 " data-ani="showInBottom">
+                    </p>
+                    <p>
+                    	<img src="image/27.png" alt="" width="100%" class="a-time09 ani-delay6 " data-ani="fadeIn">
+                    </p>
+                </div>
+                
+            </div>
+            <div class="swiper-slide" style="background:#071018;">
+            	
+                <div class="absolute f0 z3" style="width:100%;left:0;top:14%;">
+                	<p class="mb5">
+                    	<img src="image/29.png" width="100%" alt="" class="a-time09 ani-delay901 " data-ani-lou="showInBottom">
+                    </p>
+                    <p>
+                    	<img src="image/30.png" width="100%" alt="" class="a-time09 ani-delay1001 " data-ani-lou="fadeIn">
+                    </p>
+                </div>
+                
+                <div class="absolute f0 z2 align_center a-time09 ani-delay1101 " data-ani-lou="fadeIn" style="width:100%;left:0;top:6%;">
+                	<img src="image/31.png" width="180" alt="" class="a-time9  a-yj zhuanquan">
+                </div>
+                
+                <div class="absolute z1" style="width:100%;height:100%;">
+                	
+                    <!--底图-->
+                    <div style="left:0;bottom:0;background-image:url(image/04.jpg);" class="absolute z1 bg"></div>
+                    
+                    <!--底图2-->
+                    <div style="left:0;bottom:0;background-image:url(image/05.jpg);" class="absolute z2 bg a-time09 ani-delay803" data-ani-lou="fadeIn"></div>
+
+                    <!--云-->
+                    <div style="left:0;bottom:0;background-image:url(image/28_12.png);" class="yun absolute z4 bg absolute a-time05" data-ani="showTop" data-ani-lou2="outTop"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_13.png);" class="yun absolute z4 bg absolute a-time05" data-ani="showLeft" data-ani-lou2="outLeft"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_14.png);" class="yun absolute z4 bg absolute a-time05" data-ani="showRight" data-ani-lou2="outRight"></div>
+                    
+                    <!--闪光点 -->
+                    <div style="left:0;bottom:0;background-image:url(image/28.png);" class="absolute z3 bg absolute a-time09 ani-delay09 a-yjfx" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/86.gif);" class="absolute z3 bg absolute a-time09 ani-delay1200" data-ani-lou="fadeIn"></div>
+                    
+                    <!--主要标记-->
+                    <div style="left:0;bottom:0;background-image:url(image/28_01.png);" class="absolute z4 bg absolute a-time09 ani-delay307" data-ani-lou="fadeIn"></div>
+                    
+                    <!--其他标记-->
+                    <div style="left:0;bottom:0;background-image:url(image/28_02.png);" class="absolute z4 bg absolute a-time03 ani-delay603" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_03.png);" class="absolute z4 bg absolute a-time03 ani-delay605" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_04.png);" class="absolute z4 bg absolute a-time03 ani-delay607" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_05.png);" class="absolute z4 bg absolute a-time03 ani-delay609" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_06.png);" class="absolute z4 bg absolute a-time03 ani-delay701" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_07.png);" class="absolute z4 bg absolute a-time03 ani-delay703" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_08.png);" class="absolute z4 bg absolute a-time03 ani-delay705" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_09.png);" class="absolute z4 bg absolute a-time03 ani-delay707" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_10.png);" class="absolute z4 bg absolute a-time03 ani-delay709" data-ani-lou="fadeIn"></div>
+                    <div style="left:0;bottom:0;background-image:url(image/28_11.png);" class="absolute z4 bg absolute a-time03 ani-delay801" data-ani-lou="fadeIn"></div>
+                    
+                    <!--按钮-->
+                    <p class="f0 align_center absolute " style="width:100%;left:0;bottom:10%;">
+                    	<img src="image/98.png" width="156" class="a-time05 ani-delay03" data-ani="fadeIn" data-ani-lou2="fadeOut" id="js-btn" />
+                    </p>
+                    <script>
+                        $("body").on("click", "#js-btn", function () {
+							$(this).removeClass("ani-delay03");
+							$(".yun").addClass("ani-delay507");
+                            $("[data-ani-lou]").each(function (index, element) {
+                                var ani = $(this).attr("data-ani-lou");
+                                $(this).addClass(ani);
+                            });
+                            $("[data-ani-lou2]").each(function (index, element) {
+                                var ani = $(this).attr("data-ani-lou2");
+                                $(this).addClass(ani);
+                            });
+						});
+                    </script>
+                    
+                </div>
+                
+            </div>
+            <div class="swiper-slide">
+            	<div class="homepage_left f_left z2 a-time09 " data-ani="showLeft">
+                	<div class="cell-homepage-wrap">
+                        <div class="cell-homepage-l js-stq-l" style="background-image:url(image/32_01.png)">
+                        	<div class="yuandian a-time09 ani-delay09 ">
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                        <div class="cell-homepage-l js-stq-l" style="background-image:url(image/32_03.png)">
+                        	<div class="yuandian a-time09 ani-delay18 ">
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                        <div class="cell-homepage-l js-stq-l" style="background-image:url(image/32_05.png)">
+                        	<div class="yuandian a-time09 ani-delay27 ">
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage_right f_right z1 a-time09 " data-ani="showRight">
+                	<div class="cell-homepage-wrap">
+                        <div class="cell-homepage-r js-stq-r" style="background-image:url(image/32_02.png)"></div>
+                        <div class="cell-homepage-r js-stq-r" style="background-image:url(image/32_04.png)"></div>
+                        <div class="cell-homepage-r js-stq-r" style="background-image:url(image/32_06.png)"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+            	<div class="homepage_left homepage_left-2 f_left z2 a-time09 " data-ani="showLeft">
+                	<div class="top"></div>
+                	<div class="cell-homepage-wrap">
+                        <div class="cell-homepage-l js-bgs1" style="background-image:url(image/36_01.jpg)">
+                        	<div class="img3 animate" style="background-image:url(image/36__01.jpg)"></div>
+                            <div class="img4" style="background-image:url(image/36___01.png)"></div>
+                        	<div class="yuandian yuandian2 a-time09 ani-delay1 " >
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                        <div class="cell-homepage-l js-bgs1" style="background-image:url(image/36_03.jpg)">
+                        	<div class="img3 animate" style="background-image:url(image/36__03.jpg)"></div>
+                            <div class="img4" style="background-image:url(image/36___03.png)"></div>
+                        	<div class="yuandian yuandian2 a-time09 ani-delay2 ">
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                        <div class="cell-homepage-l js-bgs1" style="background-image:url(image/36_05.jpg)">
+                        	<div class="img3 animate" style="background-image:url(image/36__05.jpg)"></div>
+                            <div class="img4" style="background-image:url(image/36___05.png)"></div>
+                        	<div class="yuandian yuandian2 a-time09 ani-delay3 " >
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage_right homepage_right-2 f_right z1 a-time09 " data-ani="showRight">
+                	<div class="top"></div>
+                	<div class="cell-homepage-wrap">
+                        <div class="cell-homepage-r js-bgs2" style="background-image:url(image/36_02.jpg)">
+                        	<div class="img3 animate" style="background-image:url(image/36__02.jpg)"></div>
+                            <div class="img4" style="background-image:url(image/36___02.png)"></div>
+                        	<div class="yuandian yuandian2 a-time09 ani-delay4 " >
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                        <div class="cell-homepage-r js-bgs2" style="background-image:url(image/36_04.jpg)">
+                        	<div class="img3 animate" style="background-image:url(image/36__04.jpg)"></div>
+                            <div class="img4" style="background-image:url(image/36___04.png)"></div>
+                        	<div class="yuandian yuandian2 a-time09 ani-delay5 " >
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                        <div class="cell-homepage-r js-bgs2" style="background-image:url(image/36_06.jpg)">
+                        	<div class="img3 animate" style="background-image:url(image/36__06.jpg)"></div>
+                            <div class="img4" style="background-image:url(image/36___06.png)"></div>
+                        	<div class="yuandian yuandian2 a-time09 ani-delay6 " >
+                            	<img src="image/34.png" width="10" alt="" class="img1 z2">
+                                <img src="image/33.png" width="10" alt="" class="img2 z1 a-time03 zoomIn a-yjfx">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+            	
+                <div class="bg" style="background-image:url(image/01.jpg)"></div>
+                
+            	<div class="absolute z2" style="top:4%;left:0;width:100%;">
+                	<p class="f0">
+                    	<img src="image/37.png" alt="" style="top:0;left:0;" width="100%" class="z1 relative a-time09 " data-ani="showInTop">
+                    </p>             
+                    <!--       
+                    <img src="image/39.png" alt="" style="top:0;left:0;" width="100%" class="z2 absolute a-time09 ani-delay1 " data-ani="fadeIn">
+                    <img src="image/38.png" alt="" style="top:0;left:0;" width="100%" class="z3 absolute a-time09 ani-delay2 " data-ani="fadeIn">
+                    -->
+                    
+                    <div class="cell-dq" style="margin-left: -129px;margin-top: -278px;">
+                    	<img src="image/87.png" class="a-time03 ani-delay09" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay11" data-ani="fadeIn"><img src="image/953.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    <div class="cell-dq" style="    margin-left: 113px;    margin-top: -306px;">
+                    	<img src="image/88.png" class="a-time03 ani-delay11" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay13" data-ani="fadeIn"><img src="image/953.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    <div class="cell-dq" style="margin-left: 43px;    margin-top: -243px;">
+                    	<img src="image/89.png" class="a-time03 ani-delay13" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay15" data-ani="fadeIn"><img src="image/97.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    <div class="cell-dq" style="    margin-left: -39px;    margin-top: -166px;">
+                    	<img src="image/90.png" class="a-time03 ani-delay15" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay17" data-ani="fadeIn"><img src="image/96.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    <div class="cell-dq" style="  margin-left: 30px;    margin-top: -152px;">
+                    	<img src="image/91.png" class="a-time03 ani-delay17" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay19" data-ani="fadeIn"><img src="image/96.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    <div class="cell-dq" style="        margin-left: 85px;    margin-top: -177px;">
+                    	<img src="image/92.png" class="a-time03 ani-delay19" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay21" data-ani="fadeIn"><img src="image/953.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+
+                    <div class="cell-dq" style="        margin-left: 66px;    margin-top: -100px;">
+                    	<img src="image/94.png" class="a-time03 ani-delay23" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay25" data-ani="fadeIn"><img src="image/96.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    
+                    <div class="cell-dq" style="margin-left: 41px;    margin-top: -84px;">
+                    	<img src="image/99.png" class="a-time03 ani-delay25" data-ani="showInBottom" width="60">
+                        <p class="ico a-time03 ani-delay27" data-ani="fadeIn"><img src="image/953.png" class="a-time7 a-yj zhuanquan" width="60"></p>
+                    </div>
+                    
+                    <p class="align_center f0">
+                    	<img src="image/40.png" width="115" class="a-time09 ani-delay3" data-ani="showInBottom">
+                    </p>
+                    
+                </div>
+                
+                <div class="absolute z2 f0  align_center" style="bottom:4%;left:0;width:100%;">
+                	
+                    <div class="mb5 cf">
+                    	<div class="cell-sj a-time09 ani-delay4 " data-ani="showInBottom">
+                        	<img src="image/41.png" alt="" width="82" class="relative">
+                            <img src="image/44.png" alt="" width="82" class="img2 absolute zhuanquan a-yj a-time1">
+                        </div>
+                        <div class="cell-sj a-time09 ani-delay5 " data-ani="showInBottom">
+                        	<img src="image/42.png" alt="" width="82" class="relative">
+                            <img src="image/45.png" alt="" width="82" class="img2 absolute ani-delay03 zhuanquan a-yj a-time1">
+                        </div>
+                        <div class="cell-sj a-time09 ani-delay6 " data-ani="showInBottom">
+                        	<img src="image/43.png" alt="" width="82" class="relative">
+                            <img src="image/44.png" alt="" width="82" class="img2 absolute ani-delay04 zhuanquan a-yj a-time1">
+                        </div>
+                    </div>
+                    
+                    <p class="a-time09 ani-delay7 " data-ani="showInBottom">
+                    	<img src="image/46.png" alt="" width="77.5">
+                    </p>
+                </div>
+                
+            </div>
+            <div class="swiper-slide">
+            	
+                <div class="bg" style="background-image:url(image/01.jpg)"></div>
+                
+                <img src="image/14.png" width="180" alt="" class="absolute z1 a-time9  a-yj zhuanquan"  style="left:50%;top:50%;margin-left:-90px;margin-top:-90px;">
+                <img src="image/51.png" width="100" alt="" class="absolute z2 a-time1 " data-ani="inZoom" style="left:50%;top:50%;margin-left:-50px;margin-top:-20px;">
+                
+                
+                <div class="wrap-yets z3 align_center f0">
+                	<table width="100%" height="100%">
+                    
+                    	<tr style="height:50%">
+                        	<td style="width:50%;">
+                            	<p class="mb5"><img src="image/47.png" alt="" width="137" class="a-time07 ani-delay03 " data-ani="inZoom"></p>
+                                <p><img src="image/52.png" alt="" width="105" class="a-time03 ani-delay11 " data-ani="fadeIn"></p>
+                            </td>
+                        	<td style="width:50%;">
+                            	<p class="mb5"><img src="image/48.png" alt="" width="137" class="a-time07 ani-delay05 " data-ani="inZoom"></p>
+                                <p><img src="image/53.png" alt="" width="105" class="a-time03 ani-delay13 " data-ani="fadeIn"></p>
+                            </td>
+                        </tr>
+                        <tr style="height:50%">
+                        	<td style="width:50%;">
+                            	<p class="mb5"><img src="image/49.png" alt="" width="137" class="a-time07 ani-delay07 " data-ani="inZoom"></p>
+                                <p><img src="image/54.png" alt="" width="105" class="a-time03 ani-delay15 " data-ani="fadeIn"></p>
+                            </td>
+                        	<td style="width:50%;">
+                            	<p class="mb5"><img src="image/50.png" alt="" width="137" class="a-time07 ani-delay09 " data-ani="inZoom"></p>
+                                <p><img src="image/55.png" alt="" width="105" class="a-time03 ani-delay17 " data-ani="fadeIn"></p>
+                            </td>
+                        </tr>
+                    	
+                    </table>
+                </div>
+                
+            </div>
+            <div class="swiper-slide" style="background:#020b0e;">
+            	<img src="image/14.png" width="180" alt="" class="absolute z3 a-time9  a-yj zhuanquan"  style="left:50%;top:-100px;margin-left:-90px;">
+            	<div class="list-fwal relative z2">
+                	<div class="cell a-time05 " data-ani="showInTop" style="background-image:url(image/56_01.jpg);"></div>
+                    <div class="cell a-time05 ani-delay05 " data-ani="showInLeft" style="background-image:url(image/56_02.jpg);"></div>
+                    <div class="cell a-time05 ani-delay1 " data-ani="showInRight" style="background-image:url(image/56_03.jpg);"></div>
+                    <div class="cell a-time05 ani-delay15 " data-ani="showInLeft" style="background-image:url(image/56_04.jpg);"></div>
+                    <div class="cell a-time05 ani-delay2 " data-ani="showInRight" style="background-image:url(image/56_05.jpg);"></div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+            	<div class="bg" style="background-image:url(image/57.jpg)"></div>
+                <div class="absolute bg z2 a-time3 a-yjfx" data-ani="fadeIn" style="background-image:url(image/61.png);left:0;top:0;"></div>
+                <div class="absolute bg z2 a-time3 a-yjfx" data-ani="fadeIn" style="background-image:url(image/61.png);left:0;top:0;"></div>
+                <div class="absolute bg z2 a-time3 a-yjfx" data-ani="fadeIn" style="background-image:url(image/61.png);left:0;top:0;"></div>
+            	
+                <div class="absolute z2 align_center" style="top:10%;left:0;width:100%;">
+                    <p class="mb40 a-time05 ani-delay03 " data-ani="inZoom" ><img src="image/58.png" alt="" width="212"></p>
+                    <p class="a-time05 ani-delay1 "  data-ani="fadeIn"><img src="image/59.png" alt="" width="229.5"></p>
+                </div>
+                
+                <div class="absolute z2 align_center" style="bottom:10%;left:0;width:100%;">
+                    <p class="z2 a-time09 ani-delay2 " data-ani="fadeIn"><img src="image/60.png" alt="" width="192.5"></p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- 如果需要分页器 
+        <div class="swiper-pagination"></div>-->
+        
+        <!-- 如果需要导航按钮 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>-->
+        
+        <!-- 如果需要滚动条 
+        <div class="swiper-scrollbar"></div>-->
+    </div>
+    
+    <div class="stq z2 js-stq hide a-time09" data-ani="fadeIn" style="background:#155428;">
+    	<div class="bg" style="background-image:url(image/62.jpg)"></div>
+    	<div class="absolute f0 z2 align_center" style="left: -60px;top: 25%;">
+            <img src="image/31.png" width="180" alt="" class="a-time9  a-yj zhuanquan">
+        </div>
+        
+        <div class="absolute f0 align_center z3" style="width:100%;left:0;bottom:20%;">
+            <p class="mb40"><img src="image/63.png" alt="" width="96.5" class="a-time09 ani-delay09 fadeIn"  data-ani="fadeIn"></p>
+        
+            <p><img src="image/64.png" alt="" width="222" class="a-time09 ani-delay18 fadeIn"  data-ani="fadeIn"></p>
+        </div>
+    </div>
+    <div class="stq z2 js-stq hide a-time09" data-ani="fadeIn" style="background:#21458a;">
+    	<div class="bg" style="background-image:url(image/65.jpg)"></div>
+    	<div class="absolute f0 z2 align_center" style="width:100%;left: 0;top: -90px;">
+            <img src="image/14.png" width="180" alt="" class="a-time9 a-yj zhuanquan">
+        </div>
+        
+        <div class="absolute f0 align_center z3" style="width:100%;left:0;top:15%;">
+            <p class="mb20"><img src="image/66.png" alt="" width="96.5" class="a-time09 ani-delay09 fadeIn"  data-ani="fadeIn"></p>
+        
+            <p><img src="image/67.png" alt="" width="222" class="a-time09 ani-delay18 fadeIn"  data-ani="fadeIn"></p>
+        </div>
+    </div>
+    <div class="stq z2 js-stq hide a-time09" data-ani="fadeIn" style="background:#5e71dc;">
+    	<div class="bg" style="background-image:url(image/68.jpg)"></div>
+    	<div class="absolute f0 z2 align_center" style="width:100%;left: 0;top: -90px;">
+            <img src="image/14.png" width="180" alt="" class="a-time9  a-yj zhuanquan">
+        </div>
+        
+        <div class="absolute f0 align_center z3" style="width:100%;left:0;top:15%;">
+            <p class="mb20"><img src="image/69.png" alt="" width="96.5" class="a-time09 ani-delay09 fadeIn"  data-ani="fadeIn"></p>
+        
+            <p><img src="image/70.png" alt="" width="222" class="a-time09 ani-delay18 fadeIn"  data-ani="fadeIn"></p>
+        </div>
+    </div>
+    
+    <div class="stq z2 js-bgl-1 hide a-time09" data-ani="fadeIn" style="background:#000;">
+    	<div class="bg" style="background-image:url(image/71.jpg)"></div>
+        
+        <div class="absolute f0 z3 align_center" style="left:0;top:20px;width:100%;">
+            <p class="mb20"><img src="image/72.png" alt="" width="123" class="a-time07 ani-delay03 showInLeft" data-ani="showInLeft"></p>
+        </div>
+    </div>
+    <div class="stq z2 js-bgl-1 hide a-time09" data-ani="fadeIn" style="background:#000;">
+    	<div class="bg" style="background-image:url(image/73.jpg)"></div>
+        
+        <div class="absolute f0 z3 align_center" style="left:0;top:20px;width:100%;">
+            <p class="mb20"><img src="image/78.png" alt="" width="123" class="a-time07 ani-delay03 showInLeft" data-ani="showInLeft"></p>
+        </div>
+    </div>
+    <div class="stq z2 js-bgl-1 hide a-time09" data-ani="fadeIn" style="background:#000;">
+    	<div class="bg" style="background-image:url(image/77.jpg)"></div>
+        
+        <div class="absolute f0 z3 align_center" style="left:0;top:20px;width:100%;">
+            <p class="mb20"><img src="image/82.png" alt="" width="123" class="a-time07 ani-delay03 showInLeft" data-ani="showInLeft"></p>
+        </div>
+    </div>
+    
+    <div class="stq z2 js-bgl-2 hide a-time09" data-ani="fadeIn" style="background:#000;">
+    	<div class="bg" style="background-image:url(image/74.jpg)"></div>
+        
+        <div class="absolute f0 z3 align_center" style="left:0;top:20px;width:100%;">
+            <p class="mb20"><img src="image/79.png" alt="" width="123" class="a-time07 ani-delay03 showInLeft" data-ani="showInLeft"></p>
+        </div>
+    </div>
+    <div class="stq z2 js-bgl-2 hide a-time09" data-ani="fadeIn" style="background:#000;">
+    	<div class="bg" style="background-image:url(image/75.jpg)"></div>
+        
+        <div class="absolute f0 z3 align_center" style="left:0;top:20px;width:100%;">
+            <p class="mb20"><img src="image/78.png" alt="" width="123" class="a-time07 ani-delay03 showInLeft" data-ani="showInLeft"></p>
+        </div>
+    </div>
+    <div class="stq z2 js-bgl-2 hide a-time09" data-ani="fadeIn" style="background:#000;">
+    	<div class="bg" style="background-image:url(image/76.jpg)"></div>
+        
+        <div class="absolute f0 z3 align_center" style="left:0;top:20px;width:100%;">
+            <p class="mb20"><img src="image/81.png" alt="" width="123" class="a-time07 ani-delay03 showInLeft" data-ani="showInLeft"></p>
+        </div>
+    </div>
+    
+    
+
+    <!-- loading加载页 -->
+    <section id="loading" class="position" style="z-index:999;">
+        <img src="image/83.gif" alt="" width="18" class="absolute zhuanquan a-yj a-time2" style="left:50%;top:50%;margin-left:-9px;margin-top:-9px;">
+    </section>
+
+
+<audio id="music" src="music/Bloom.mp3" preload loop hidden></audio>
+
+
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+/*竖屏时使用的样式*/
+@media all and (orientation:portrait) {
+
+}
+
+/*横屏时使用的样式*/
+@media all and (orientation:landscape) {
+
+}
+
+/*开启硬件加速
+解决页面闪白
+保证动画流畅*/
+.cube {
+   -webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+  /* Other transform properties here */
+}
+
+/* 设置需要的标签内边距和外边距为0，仅添加需要的标签，不建议使用星号（*）代替，以下为示例 */
+* { margin: 0; padding: 0; outline: none;}
+html{font-family:Helvetica;font-size:62.5%;}
+
+/*图片无边框*/
+img { border: none; }
+
+/* 清除列表样式设置，以下为示例，仅写你用到的标签 */
+ul , li{ list-style: none; }
+
+/*文字对齐*/
+.align_left { text-align: left; }
+.align_center { text-align: center; }
+.align_right { text-align: right; }
+
+/* 设置链接默认样式，默认颜色和鼠标移入颜色根据实际需求自行更改 */
+a{text-decoration:none;color:#4a4a4a;
+	transition:color 0.2s;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-ms-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+a:hover{color:#FF5926;}
+
+/*清除浮动 两种方式根据具体需求自选*/
+.cf:before, .cf:after { content:"";  display:table;  }
+.cf:after {  clear:both;  }  
+.cf { zoom:1;  } /*方式1*/
+.of { overflow:hidden; }/*方式2*/
+
+/*表格边框合并*/
+table{border-collapse:collapse;}
+
+/*动画*/
+.animate{
+transition:all 0.3s;
+-webkit-transition:all 0.3s;
+-moz-transition:all 0.3s;
+-ms-transition:all 0.3s;
+-o-transition:all 0.3s;
+}
+
+/*浮动*/
+.f_left{float:left;}
+.f_right{float:right;}
+
+/*强制换行*/
+.break_word{word-wrap:break-word;word-break:break-all;}
+/*文字强制不断行*/
+.nobreak{white-space:nowrap;}
+
+/*禁止换行*/
+.keep_all{word-break:keep-all;white-space:nowrap;}
+
+/*超出省略号，仅限单行，并且需要设定一个宽度*/
+.ellipsis { overflow: hidden; text-overflow: ellipsis; display: block; white-space: nowrap }
+
+/*段落两端对齐*/
+.txt_justify{text-align:justify;text-justify:inter-ideograph}
+
+/*两端对齐 若单行，至少要3个字符，只有两个字符的，中间补一个空格*/
+.text_justify {
+	text-align: justify; text-justify: distribute-all-lines;/*ie6-8*/ 
+	text-align-last: justify;/* ie9*/ 
+}
+
+/*修复火狐按钮文字不垂直居中的bug*/
+input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border:none;
+	padding:0;
+}
+
+.hide{display:none !important;}
+/*常用边距*/
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mb30{margin-bottom:30px;}
+.mb40{margin-bottom:40px;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml40{margin-left:40px;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.mr30{margin-right:30px;}
+.mr40{margin-right:40px;}
+
+/*布局框架*/
+.m_center{margin:0 auto;}
+.container{position:relative;}
+.container_full{width:100%;}
+.container_half{width:50%;}
+
+.z1{z-index:1;}
+.z2{z-index:2;}
+.z3{z-index:3;}
+.z4{z-index:4;}
+.z5{z-index:5;}
+.z6{z-index:6;}
+.z7{z-index:7;}
+[data-ani-lou],
+[data-ani-ani],
+[data-ani]{opacity:0;}
+.swiper-slide{position:relative;overflow:hidden;}
+.bg{width:100%;height:100%;background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative;z-index:0;}
+.img{position:absolute;}
+.block{display:block;}
+.absolute{position:absolute;}
+.relative{position:relative;}
+.cell-first{float:left;width:100%;position:relative;}
+.cell-first .img1,
+.cell-first .img2{top:50%;width:40%;margin-top:-25px;}
+.cell-first .img1{left:0;}
+.cell-first .img2{right:0;}
+.f0{font-size:0;}
+
+.cell2-img{position:absolute;left:0;bottom:0;}
+
+.homepage_left,
+.homepage_right{width:50%;height:100%;background-repeat:no-repeat;background-size:100% 100%;position:relative;}
+.homepage_left{background-position:left center;background-image:url(../image/06.jpg);}
+.homepage_right{background-position:right center;background-image:url(../image/07.jpg);}
+.cell-homepage-l,
+.cell-homepage-r{height:100px;background-size:cover;border-top:1px dashed rgba(255,255,255,0.1); position:relative;}
+.homepage_left-2 .cell-homepage-l,
+.homepage_right-2 .cell-homepage-r{border:none;}
+.cell-homepage-l:last-child,
+.cell-homepage-r:last-child{/*border-bottom:1px dashed rgba(255,255,255,0.4); */}
+.cell-homepage-l{background-position:left center;}
+.cell-homepage-r{background-position:right center;}
+.cell-homepage-wrap{position:absolute;width:100%;bottom:5%;}
+
+.yuandian{position:absolute;right:-5px;width:10px;height:10px;top:50%;margin-top:-5px;}
+.yuandian img{position:absolute;left:0;top:0;}
+
+.homepage_left-2{background:none;}
+.homepage_right-2{background-image:none;}
+.homepage_left-2 .top,
+.homepage_right-2 .top{height:70px;}
+.homepage_left-2 .top{background-image:url(../image/35_01.jpg);background-size:100%;background-position:top right;}
+.homepage_right-2 .top{background-image:url(../image/35_02.jpg);background-size:100%;background-position:top left;}
+.homepage_left-2 .cell-homepage-wrap,
+.homepage_right-2 .cell-homepage-wrap{position:absolute;top:70px;bottom:0;left:0;right:0;}
+.homepage_left-2 .cell-homepage-wrap .cell-homepage-l,
+.homepage_right-2 .cell-homepage-wrap .cell-homepage-r{height:33.333%;overflow:hidden;}
+.homepage_left-2 .cell-homepage-l{background-position:center center;}
+.homepage_right-2 .cell-homepage-r{background-position:center center;}
+
+.yuandian2{right:50%;margin-right:-5px;margin-top:20px;z-index:4;}
+.img3,
+.img4{left:0;top:0;z-index:1;position:absolute;background-position: center center;background-size: cover;width:100%;height:100%;}
+.img3{opacity:0;}
+.on .img3{opacity:1;}
+
+.cell-sj{display:inline-block;width:82px;position:relative;margin:0 10px;}
+.cell-sj .img2{left:0;top:0;}
+
+.wrap-yets{position:absolute;left:0;top:0;width:100%;height:100%;}
+.wrap-yets .cell{width:50%;height:50%;float:left;}
+
+.list-fwal{height:100%;}
+.list-fwal .cell{height:20%;background-position:center center;background-repeat:no-repeat;background-size:cover;}
+
+.stq{position:absolute;width:100%;height:100%;left:0;top:0;background:#000;}
+
+.position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#000;
+}
+.cell-dq{position:absolute; z-index:2;left:50%;margin-top:50%;}
+.cell-dq img{position:relative;z-index:2;}
+.cell-dq .ico{position:absolute;left: -14px;top: 13px;z-index:1;}
